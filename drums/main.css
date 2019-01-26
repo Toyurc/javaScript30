@@ -1,0 +1,43 @@
+.keys {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assests/images/raw.png');
+}
+
+.key {
+    border: 2px solid black;
+    width: 80px;
+    height: 50px;
+    margin: 1rem; 
+    transition: all 0.07s;
+    text-align: center;
+    background: transparent;
+    text-shadow: 0 0 5px black;
+}
+
+.key kbd {
+    display: block;
+    text-transform: capitalize;
+    color: white;
+}
+
+.key span {
+    font-size: 9px;
+    color: gold;
+    text-transform: uppercase;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.sound {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffc600;
+}
